@@ -1,0 +1,85 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/LELEC2531/Quartus_intro/simulation/modelsim
+vhard_block
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1633205229
+!i10b 1
+!s100 =?^DLEFWDV[4Bhe_S:XRH0
+I?FFLj7;iL7Z7R>keW:Qih0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 my_sync_design_6_1200mv_85c_slow_svo_unit
+S1
+R0
+Z5 w1633205021
+Z6 8my_sync_design_6_1200mv_85c_slow.svo
+Z7 Fmy_sync_design_6_1200mv_85c_slow.svo
+L0 6439
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1633205229.000000
+Z10 !s107 my_sync_design_6_1200mv_85c_slow.svo|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+.|my_sync_design_6_1200mv_85c_slow.svo|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work +incdir+.
+Z14 tCvgOpt 0
+vmy_sync_design
+R1
+R2
+!i10b 1
+!s100 CE?6NUh=nbBJ2G9lASm;^3
+ISIYOdP`:TOo0KOHS50DGF1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 31
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vmy_wonderful_testbench
+R1
+R2
+!i10b 1
+!s100 F0gVO:kJ_gH65o]hWgn6Z3
+IVeo1NCRg?0NJ7H09Z1YV12
+R3
+!s105 testbench_sv_unit
+S1
+R0
+w1633203688
+8C:/LELEC2531/Quartus_intro/testbench.sv
+FC:/LELEC2531/Quartus_intro/testbench.sv
+L0 11
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/LELEC2531/Quartus_intro/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/LELEC2531/Quartus_intro|C:/LELEC2531/Quartus_intro/testbench.sv|
+!i113 1
+R12
+!s92 -sv -work work +incdir+C:/LELEC2531/Quartus_intro
+R14

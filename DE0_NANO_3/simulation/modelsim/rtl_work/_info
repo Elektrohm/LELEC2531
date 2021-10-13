@@ -1,0 +1,182 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/LELEC2531/DE0_NANO_3/simulation/modelsim
+vClock_divider
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1633773148
+!i10b 1
+!s100 GT<Yl3BkMjb]jPIWeRh8@1
+IfFzcU<;Q5UiQ0b__Vb4=^2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 DE0_NANO_3_sv_unit
+S1
+R0
+Z5 w1633676049
+Z6 8C:/LELEC2531/DE0_NANO_3/DE0_NANO_3.sv
+Z7 FC:/LELEC2531/DE0_NANO_3/DE0_NANO_3.sv
+L0 60
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1633773148.000000
+Z10 !s107 C:/LELEC2531/DE0_NANO_3/DE0_NANO_3.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/LELEC2531/DE0_NANO_3|C:/LELEC2531/DE0_NANO_3/DE0_NANO_3.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work +incdir+C:/LELEC2531/DE0_NANO_3
+Z14 tCvgOpt 0
+n@clock_divider
+vDE0_NANO_3
+R1
+R2
+!i10b 1
+!s100 K?kG_^BWcLb^a<]J?:Tha0
+I6o=:dYQ2`gP0=GHUcJF690
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@d@e0_@n@a@n@o_3
+vHomework_3
+R1
+R2
+!i10b 1
+!s100 QE4FJ4STck_Z]L@i^3j]l0
+IKdb;8gIJ7_b30o8VgZ7RD2
+R3
+Z15 !s105 Homework_3_sv_unit
+S1
+R0
+Z16 w1633545429
+Z17 8C:/LELEC2531/DE0_NANO_3/Homework_3.sv
+Z18 FC:/LELEC2531/DE0_NANO_3/Homework_3.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+Z19 !s107 C:/LELEC2531/DE0_NANO_3/Homework_3.sv|
+Z20 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/LELEC2531/DE0_NANO_3|C:/LELEC2531/DE0_NANO_3/Homework_3.sv|
+!i113 1
+R12
+R13
+R14
+n@homework_3
+vmy_pll
+R2
+!i10b 1
+!s100 ?lWU=68SFW;Ec^8S4LbHJ0
+IY:AcP3HUXej`EQnH<a6Un2
+R3
+R0
+w1633772100
+8C:/LELEC2531/DE0_NANO_3/my_pll.v
+FC:/LELEC2531/DE0_NANO_3/my_pll.v
+L0 39
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/LELEC2531/DE0_NANO_3/my_pll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/LELEC2531/DE0_NANO_3|C:/LELEC2531/DE0_NANO_3/my_pll.v|
+!i113 1
+Z21 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/LELEC2531/DE0_NANO_3
+R14
+vmy_pll_altpll
+R2
+!i10b 1
+!s100 =C7PHhP?Q<mnNn2<;g=8;0
+INIK641mnCTA4BY^PWCC9d1
+R3
+R0
+w1633772266
+8C:/LELEC2531/DE0_NANO_3/db/my_pll_altpll.v
+FC:/LELEC2531/DE0_NANO_3/db/my_pll_altpll.v
+L0 30
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/LELEC2531/DE0_NANO_3/db/my_pll_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/LELEC2531/DE0_NANO_3/db|C:/LELEC2531/DE0_NANO_3/db/my_pll_altpll.v|
+!i113 1
+R21
+!s92 -vlog01compat -work work +incdir+C:/LELEC2531/DE0_NANO_3/db
+R14
+vtaillight
+R1
+R2
+!i10b 1
+!s100 YH18Li3>RcB>UN;L;BJBN1
+II=KY:@nlIVPj88RNNidnJ3
+R3
+R15
+S1
+R0
+R16
+R17
+R18
+L0 26
+R8
+r1
+!s85 0
+31
+R9
+R19
+R20
+!i113 1
+R12
+R13
+R14
+vtest_homework_3
+R1
+R2
+!i10b 1
+!s100 RQ5D1jTBh5@Y<DTdR[W`Z2
+INIM3VkK0Nh>BFUSBfNECm3
+R3
+!s105 test_homework_3_sv_unit
+S1
+R0
+w1633541176
+8C:/LELEC2531/DE0_NANO_3/test_homework_3.sv
+FC:/LELEC2531/DE0_NANO_3/test_homework_3.sv
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/LELEC2531/DE0_NANO_3/test_homework_3.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/LELEC2531/DE0_NANO_3|C:/LELEC2531/DE0_NANO_3/test_homework_3.sv|
+!i113 1
+R12
+R13
+R14

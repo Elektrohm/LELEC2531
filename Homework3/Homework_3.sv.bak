@@ -1,0 +1,61 @@
+module Homework_3(input logic clk,
+	input logic reset,
+	input logic left, right,
+	output logic la, lb, lc, ra, rb, rc
+);
+
+taillight leftside( 
+	.clk(clk),
+	.reset(reset),
+	.Turn(left),
+	.a(la),
+	.b(lb),
+	.c(lc));
+
+taillight rightside( 
+	.clk(clk),
+	.reset(reset),
+	.Turn(right),
+	.a(ra),
+	.b(rb),
+	.c(rc));
+endmodule
+
+
+// Generic module for taillight, Turn takes left or right input
+module taillight(
+	input logic clk,
+	input logic reset,
+	input logic Turn,
+	output logic a, b, c
+);
+logic [1:0]{S0,S1,S2,S3} state, nextstate;
+
+parameter S0 = 2'b00;
+parameter S1 = 2'b01;
+parameter S2 = 2'b10;
+parameter S3 = 2'b11;
+
+always_ff@(posedge clk, posedge reset)
+	if (reset) state <= S0;
+	else state <= nextstate;
+	
+always_comb
+	case (state)
+		S0 : nextstate = Turn ? S1 : S0;
+		S1 : nextstate = S2;
+		S2 : nextstate = S3;
+		S3 : nextstate = S0;
+		default nextstate = S0; // just for security purposes
+	endcase
+	
+assign a = (state == S1 | state == S2 | state == S3);
+assign b = (state == S1 | state == S2);
+assign c = (state == S3);
+
+endmodule 
+
+		
+
+
+ 

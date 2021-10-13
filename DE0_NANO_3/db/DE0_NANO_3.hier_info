@@ -1,0 +1,160 @@
+|DE0_NANO_3
+CLOCK_50 => CLOCK_50.IN2
+KEY[0] => left.IN1
+KEY[1] => right.IN1
+LED[0] << Homework_3:H3.lc
+LED[1] << Homework_3:H3.lb
+LED[2] << Homework_3:H3.la
+LED[3] << <GND>
+LED[4] << Homework_3:H3.ra
+LED[5] << Homework_3:H3.rb
+LED[6] << Homework_3:H3.rc
+LED[7] << <GND>
+
+
+|DE0_NANO_3|Clock_divider:CLK1
+clock_in => clock_out~reg0.CLK
+clock_in => counter[0].CLK
+clock_in => counter[1].CLK
+clock_in => counter[2].CLK
+clock_in => counter[3].CLK
+clock_in => counter[4].CLK
+clock_in => counter[5].CLK
+clock_in => counter[6].CLK
+clock_in => counter[7].CLK
+clock_in => counter[8].CLK
+clock_in => counter[9].CLK
+clock_in => counter[10].CLK
+clock_in => counter[11].CLK
+clock_in => counter[12].CLK
+clock_in => counter[13].CLK
+clock_in => counter[14].CLK
+clock_in => counter[15].CLK
+clock_in => counter[16].CLK
+clock_in => counter[17].CLK
+clock_in => counter[18].CLK
+clock_in => counter[19].CLK
+clock_in => counter[20].CLK
+clock_in => counter[21].CLK
+clock_in => counter[22].CLK
+clock_in => counter[23].CLK
+clock_in => counter[24].CLK
+clock_in => counter[25].CLK
+clock_in => counter[26].CLK
+clock_in => counter[27].CLK
+clock_out <= clock_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE0_NANO_3|my_pll:test
+areset => areset.IN1
+inclk0 => sub_wire1[0].IN1
+c0 <= altpll:altpll_component.clk
+locked <= altpll:altpll_component.locked
+
+
+|DE0_NANO_3|my_pll:test|altpll:altpll_component
+inclk[0] => my_pll_altpll:auto_generated.inclk[0]
+inclk[1] => my_pll_altpll:auto_generated.inclk[1]
+fbin => ~NO_FANOUT~
+pllena => ~NO_FANOUT~
+clkswitch => ~NO_FANOUT~
+areset => my_pll_altpll:auto_generated.areset
+pfdena => ~NO_FANOUT~
+clkena[0] => ~NO_FANOUT~
+clkena[1] => ~NO_FANOUT~
+clkena[2] => ~NO_FANOUT~
+clkena[3] => ~NO_FANOUT~
+clkena[4] => ~NO_FANOUT~
+clkena[5] => ~NO_FANOUT~
+extclkena[0] => ~NO_FANOUT~
+extclkena[1] => ~NO_FANOUT~
+extclkena[2] => ~NO_FANOUT~
+extclkena[3] => ~NO_FANOUT~
+scanclk => ~NO_FANOUT~
+scanclkena => ~NO_FANOUT~
+scanaclr => ~NO_FANOUT~
+scanread => ~NO_FANOUT~
+scanwrite => ~NO_FANOUT~
+scandata => ~NO_FANOUT~
+phasecounterselect[0] => ~NO_FANOUT~
+phasecounterselect[1] => ~NO_FANOUT~
+phasecounterselect[2] => ~NO_FANOUT~
+phasecounterselect[3] => ~NO_FANOUT~
+phaseupdown => ~NO_FANOUT~
+phasestep => ~NO_FANOUT~
+configupdate => ~NO_FANOUT~
+fbmimicbidir <> <GND>
+clk[0] <= clk[0].DB_MAX_OUTPUT_PORT_TYPE
+clk[1] <= clk[1].DB_MAX_OUTPUT_PORT_TYPE
+clk[2] <= clk[2].DB_MAX_OUTPUT_PORT_TYPE
+clk[3] <= clk[3].DB_MAX_OUTPUT_PORT_TYPE
+clk[4] <= clk[4].DB_MAX_OUTPUT_PORT_TYPE
+extclk[0] <= <GND>
+extclk[1] <= <GND>
+extclk[2] <= <GND>
+extclk[3] <= <GND>
+clkbad[0] <= <GND>
+clkbad[1] <= <GND>
+enable1 <= <GND>
+enable0 <= <GND>
+activeclock <= <GND>
+clkloss <= <GND>
+locked <= my_pll_altpll:auto_generated.locked
+scandataout <= <GND>
+scandone <= <GND>
+sclkout0 <= <GND>
+sclkout1 <= <GND>
+phasedone <= <GND>
+vcooverrange <= <GND>
+vcounderrange <= <GND>
+fbout <= <GND>
+fref <= <GND>
+icdrclk <= <GND>
+
+
+|DE0_NANO_3|my_pll:test|altpll:altpll_component|my_pll_altpll:auto_generated
+areset => pll_lock_sync.ACLR
+areset => pll1.ARESET
+clk[0] <= pll1.CLK
+clk[1] <= pll1.CLK1
+clk[2] <= pll1.CLK2
+clk[3] <= pll1.CLK3
+clk[4] <= pll1.CLK4
+inclk[0] => pll1.CLK
+inclk[1] => pll1.CLK1
+locked <= locked.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE0_NANO_3|Homework_3:H3
+clk => clk.IN2
+reset => reset.IN2
+left => left.IN1
+right => right.IN1
+la <= taillight:leftside.a
+lb <= taillight:leftside.b
+lc <= taillight:leftside.c
+ra <= taillight:rightside.a
+rb <= taillight:rightside.b
+rc <= taillight:rightside.c
+
+
+|DE0_NANO_3|Homework_3:H3|taillight:leftside
+clk => state~1.DATAIN
+reset => state~3.DATAIN
+Turn => nextstate.S1.DATAB
+Turn => Selector0.IN2
+a <= a.DB_MAX_OUTPUT_PORT_TYPE
+b <= b.DB_MAX_OUTPUT_PORT_TYPE
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE0_NANO_3|Homework_3:H3|taillight:rightside
+clk => state~1.DATAIN
+reset => state~3.DATAIN
+Turn => nextstate.S1.DATAB
+Turn => Selector0.IN2
+a <= a.DB_MAX_OUTPUT_PORT_TYPE
+b <= b.DB_MAX_OUTPUT_PORT_TYPE
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+

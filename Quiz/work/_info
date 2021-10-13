@@ -1,0 +1,347 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/LELEC2531/Clock_divider
+vcomb_A
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1634157673
+!i10b 1
+!s100 9IACO;dZ^;HW3afNf?H]<2
+I<9bXBN5dD9J6_PVKMXei?0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 _1A_sv_unit
+S1
+Z3 dC:/LELEC2531/Quiz
+w1634145601
+8C:/LELEC2531/Quiz/1A.sv
+FC:/LELEC2531/Quiz/1A.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1634157673.000000
+!s107 C:/LELEC2531/Quiz/1A.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/LELEC2531/Quiz/1A.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+ncomb_@a
+vcounter
+R0
+R1
+!i10b 1
+!s100 z78XS<KH`EhAGCl<^NSaQ1
+IEO^J8ag]3>C]aG6:b^jIL2
+R2
+!s105 counter_sv_unit
+S1
+R3
+w1633855891
+8C:/LELEC2531/Quiz/counter.sv
+FC:/LELEC2531/Quiz/counter.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1634157672.000000
+!s107 C:/LELEC2531/Quiz/counter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/LELEC2531/Quiz/counter.sv|
+!i113 1
+R6
+R7
+vFSM
+R0
+R1
+!i10b 1
+!s100 fj9Nfd?X^fY@]>kIWa4k63
+Il0Y7N3Qi;:Q<L_igIn1T`1
+R2
+!s105 FSM_sv_unit
+S1
+R3
+w1634156561
+8C:/LELEC2531/Quiz/FSM.sv
+FC:/LELEC2531/Quiz/FSM.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/LELEC2531/Quiz/FSM.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/LELEC2531/Quiz/FSM.sv|
+!i113 1
+R6
+R7
+n@f@s@m
+vmux1
+R0
+R1
+!i10b 1
+!s100 J9S4k;Y9G5@AeST@F3:_T1
+IXR6IXzC_1`SDcjhl1H5L02
+R2
+Z8 !s105 sequential_sv_unit
+S1
+R3
+Z9 w1634157663
+Z10 8C:/LELEC2531/Quiz/sequential.sv
+Z11 FC:/LELEC2531/Quiz/sequential.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+Z12 !s107 C:/LELEC2531/Quiz/sequential.sv|
+Z13 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/LELEC2531/Quiz/sequential.sv|
+!i113 1
+R6
+R7
+vmux4
+R0
+R1
+!i10b 1
+!s100 a>X5T[L;Al^Y7MgFLeVF11
+I5k4_n02cBfeF>OlA`Nz6j3
+R2
+!s105 _1A_combA_sv_unit
+S1
+R3
+w1634143385
+8C:/LELEC2531/Quiz/1A_combA.sv
+FC:/LELEC2531/Quiz/1A_combA.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/LELEC2531/Quiz/1A_combA.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/LELEC2531/Quiz/1A_combA.sv|
+!i113 1
+R6
+R7
+vmux8
+R0
+R1
+!i10b 1
+!s100 BN`>?^NZjze3=D896zfJJ3
+IC4``PN[S@elJfAd2Lo5oZ3
+R2
+!s105 _1A_combB_sv_unit
+S1
+R3
+w1634144919
+8C:/LELEC2531/Quiz/1A_combB.sv
+FC:/LELEC2531/Quiz/1A_combB.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/LELEC2531/Quiz/1A_combB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/LELEC2531/Quiz/1A_combB.sv|
+!i113 1
+R6
+R7
+vMyCircuit
+R0
+!s110 1634145061
+!i10b 1
+!s100 ^gzZ<8BbSzYK5Om0ZYZ341
+I4mO60i0jPE;IJJ3`@<jdJ0
+R2
+Z14 !s105 test_sv_unit
+S1
+R3
+w1633857835
+Z15 8C:/LELEC2531/Quiz/test.sv
+Z16 FC:/LELEC2531/Quiz/test.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1634145061.000000
+Z17 !s107 C:/LELEC2531/Quiz/test.sv|
+Z18 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/LELEC2531/Quiz/test.sv|
+!i113 1
+R6
+R7
+n@my@circuit
+vsequential
+R0
+R1
+!i10b 1
+!s100 KfCg_A7PlXW]Zi4]1MS0g2
+IAgGgTAa6Nnk14D^Yi127W2
+R2
+R8
+S1
+R3
+R9
+R10
+R11
+L0 17
+R4
+r1
+!s85 0
+31
+R5
+R12
+R13
+!i113 1
+R6
+R7
+vtest
+R0
+R1
+!i10b 1
+!s100 k?Y`^7zTK5760ZSF_Zo4S0
+IHd[aE[XM1?l^O7OA96meG2
+R2
+R14
+S1
+R3
+w1634145708
+R15
+R16
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R17
+R18
+!i113 1
+R6
+R7
+vtest_FSM
+R0
+R1
+!i10b 1
+!s100 IaiQO<ob7A_[eRYXTMBBF2
+I6UjfGM2j8>EDbkd]d5G>P3
+R2
+!s105 test_FSM_sv_unit
+S1
+R3
+w1634157220
+8C:/LELEC2531/Quiz/test_FSM.sv
+FC:/LELEC2531/Quiz/test_FSM.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/LELEC2531/Quiz/test_FSM.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/LELEC2531/Quiz/test_FSM.sv|
+!i113 1
+R6
+R7
+ntest_@f@s@m
+vtest_mux4
+R0
+R1
+!i10b 1
+!s100 8F6V96j><UM99daPhbKT02
+IzD`YZdB9@oED?G2h[4J0T0
+R2
+!s105 testmux4_sv_unit
+S1
+R3
+w1634142445
+8C:/LELEC2531/Quiz/testmux4.sv
+FC:/LELEC2531/Quiz/testmux4.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/LELEC2531/Quiz/testmux4.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/LELEC2531/Quiz/testmux4.sv|
+!i113 1
+R6
+R7
+vtest_mux8
+R0
+R1
+!i10b 1
+!s100 nGF<6SE`TUGaJR4NZ^MPW0
+I7LePd6[`:BN79iUH5^VcX0
+R2
+!s105 testmux8_sv_unit
+S1
+R3
+w1634143995
+8C:/LELEC2531/Quiz/testmux8.sv
+FC:/LELEC2531/Quiz/testmux8.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/LELEC2531/Quiz/testmux8.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/LELEC2531/Quiz/testmux8.sv|
+!i113 1
+R6
+R7
+vtest_sequential
+R0
+R1
+!i10b 1
+!s100 7@0K_5I;ZPbWzR;>D2z_k1
+I_4j3CWEYEg`VbDlEKd2Fl3
+R2
+!s105 test1B_sv_unit
+S1
+R3
+w1634150307
+8C:/LELEC2531/Quiz/test1B.sv
+FC:/LELEC2531/Quiz/test1B.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/LELEC2531/Quiz/test1B.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/LELEC2531/Quiz/test1B.sv|
+!i113 1
+R6
+R7
+vtestbench
+R1
+!i10b 1
+!s100 YGVEFoaYkzbd`KjY4GL4l3
+I8`z?6]2:jEA>MoeCbdLkS3
+R2
+R3
+w1633858021
+8C:/LELEC2531/Quiz/testbench.v
+FC:/LELEC2531/Quiz/testbench.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/LELEC2531/Quiz/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/LELEC2531/Quiz/testbench.v|
+!i113 1
+o-work work
+R7

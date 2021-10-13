@@ -1,0 +1,15 @@
+C:/LELEC2531/Homework2/Testbench/Test_homework_2.sv {1 {vlog -work work -sv -stats=none {C:\LELEC2531\Homework2\Testbench\Test_homework_2.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Test_homework_2
+
+Top level modules:
+	Test_homework_2
+
+} {} {}} C:/LELEC2531/Homework2/hdl/Homework_2.sv {1 {vlog -work work -sv -stats=none C:/LELEC2531/Homework2/hdl/Homework_2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Homework_2
+
+Top level modules:
+	Homework_2
+
+} {} {}}

@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/LELEC2531/DE0_NANO/simulation/modelsim
+vDE0_NANO
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1633351180
+!i10b 1
+!s100 D6>ZWP=`T1]af8b37XW9P1
+IenZE2@9[jW9>cORBKai8Y1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 de0_nano_sv_unit
+S1
+R0
+w1633350364
+8C:/LELEC2531/DE0_NANO/de0_nano.sv
+FC:/LELEC2531/DE0_NANO/de0_nano.sv
+L0 2
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1633351180.000000
+!s107 C:/LELEC2531/DE0_NANO/de0_nano.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/LELEC2531/DE0_NANO|C:/LELEC2531/DE0_NANO/de0_nano.sv|
+!i113 1
+Z4 o-sv -work work
+Z5 !s92 -sv -work work +incdir+C:/LELEC2531/DE0_NANO
+Z6 tCvgOpt 0
+n@d@e0_@n@a@n@o
+vtestbench
+R1
+!s110 1633351181
+!i10b 1
+!s100 W^YQM]<Sd>P8F`4zZYhM^2
+IJLobMFS28c966dPh?7@EE2
+R2
+!s105 testbench_sv_unit
+S1
+R0
+w1633350649
+8C:/LELEC2531/DE0_NANO/testbench.sv
+FC:/LELEC2531/DE0_NANO/testbench.sv
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1633351181.000000
+!s107 C:/LELEC2531/DE0_NANO/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/LELEC2531/DE0_NANO|C:/LELEC2531/DE0_NANO/testbench.sv|
+!i113 1
+R4
+R5
+R6

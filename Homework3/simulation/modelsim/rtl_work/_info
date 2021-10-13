@@ -1,0 +1,86 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/LELEC2531/Homework3/simulation/modelsim
+vHomework_3
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1633772504
+!i10b 1
+!s100 QE4FJ4STck_Z]L@i^3j]l0
+I<oi7==MP<>::7YLYiWiYa2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 Homework_3_sv_unit
+S1
+R0
+Z5 w1633545429
+Z6 8C:/LELEC2531/Homework3/Homework_3.sv
+Z7 FC:/LELEC2531/Homework3/Homework_3.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1633772504.000000
+Z10 !s107 C:/LELEC2531/Homework3/Homework_3.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/LELEC2531/Homework3|C:/LELEC2531/Homework3/Homework_3.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work +incdir+C:/LELEC2531/Homework3
+Z14 tCvgOpt 0
+n@homework_3
+vtaillight
+R1
+R2
+!i10b 1
+!s100 YH18Li3>RcB>UN;L;BJBN1
+I1M6oPPa[PXQkhFHeCS33I0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 26
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vtest_homework_3
+R1
+R2
+!i10b 1
+!s100 RQ5D1jTBh5@Y<DTdR[W`Z2
+IEOA0C;@XUH[XZP403FeJC2
+R3
+!s105 test_homework_3_sv_unit
+S1
+R0
+w1633541176
+8C:/LELEC2531/Homework3/Testbench/test_homework_3.sv
+FC:/LELEC2531/Homework3/Testbench/test_homework_3.sv
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/LELEC2531/Homework3/Testbench/test_homework_3.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/LELEC2531/Homework3/Testbench|C:/LELEC2531/Homework3/Testbench/test_homework_3.sv|
+!i113 1
+R12
+!s92 -sv -work work +incdir+C:/LELEC2531/Homework3/Testbench
+R14

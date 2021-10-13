@@ -1,0 +1,22 @@
+C:/LELEC2531/LAB1/hdl/full_adder_1_bit.sv {1 {vlog -work work -sv -stats=none C:/LELEC2531/LAB1/hdl/full_adder_1_bit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module full_adder_1_bit
+
+Top level modules:
+	full_adder_1_bit
+
+} {} {}} C:/LELEC2531/LAB1/Testbenches/test_fulladder_4bit.sv {1 {vlog -work work -sv -stats=none C:/LELEC2531/LAB1/Testbenches/test_fulladder_4bit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module test_fulladder_4bit
+
+Top level modules:
+	test_fulladder_4bit
+
+} {} {}} C:/LELEC2531/LAB1/hdl/full_adder_4_bit.sv {1 {vlog -work work -sv -stats=none C:/LELEC2531/LAB1/hdl/full_adder_4_bit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module full_adder_4_bit
+
+Top level modules:
+	full_adder_4_bit
+
+} {} {}}
