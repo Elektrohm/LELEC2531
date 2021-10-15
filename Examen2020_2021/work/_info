@@ -1,0 +1,254 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/LELEC2531/Examen2019_2020
+vComb
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1634237674
+!i10b 1
+!s100 gTfBPT7mz7^YoGVMEf5Fm0
+IBPFzUbP`HRF6c<EooV7W@3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 comb_sv_unit
+S1
+Z3 dC:/LELEC2531/Examen2020_2021
+w1634236179
+8C:/LELEC2531/Examen2020_2021/comb.sv
+FC:/LELEC2531/Examen2020_2021/comb.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1634237674.000000
+!s107 C:/LELEC2531/Examen2020_2021/comb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/LELEC2531/Examen2020_2021/comb.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+n@comb
+vFSM
+R0
+R1
+!i10b 1
+!s100 Bk6@QgUF2@M23ghHgnkoW2
+IYS:9MQFEhZnSmW[H7l9cP2
+R2
+Z8 !s105 FSM_sv_unit
+S1
+R3
+Z9 w1634236902
+Z10 8C:/LELEC2531/Examen2020_2021/FSM.sv
+Z11 FC:/LELEC2531/Examen2020_2021/FSM.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+Z12 !s107 C:/LELEC2531/Examen2020_2021/FSM.sv|
+Z13 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/LELEC2531/Examen2020_2021/FSM.sv|
+!i113 1
+R6
+R7
+n@f@s@m
+vfull_adder_1_bit
+R0
+R1
+!i10b 1
+!s100 ieh@9PCKJ_G3oicC9U_;R0
+I^LO;M76V0cWIY3DL9WD^c0
+R2
+!s105 full_adder_1_bit_sv_unit
+S1
+R3
+w1632322582
+8C:/LELEC2531/Examen2020_2021/full_adder_1_bit.sv
+FC:/LELEC2531/Examen2020_2021/full_adder_1_bit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/LELEC2531/Examen2020_2021/full_adder_1_bit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/LELEC2531/Examen2020_2021/full_adder_1_bit.sv|
+!i113 1
+R6
+R7
+vfull_adder_4_bit
+R0
+R1
+!i10b 1
+!s100 m?L??hW?I[zKE]^mESLPa1
+IBcKRXZ;`8nDhoRGTdhRA;1
+R2
+!s105 full_adder_4_bit_sv_unit
+S1
+R3
+w1632487572
+8C:/LELEC2531/Examen2020_2021/full_adder_4_bit.sv
+FC:/LELEC2531/Examen2020_2021/full_adder_4_bit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/LELEC2531/Examen2020_2021/full_adder_4_bit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/LELEC2531/Examen2020_2021/full_adder_4_bit.sv|
+!i113 1
+R6
+R7
+vfull_adder_8_bit
+R0
+R1
+!i10b 1
+!s100 `WBNb]^_MdzlZ<=mEZWc43
+IlTCWSWd18BH8B27CzRNQT0
+R2
+!s105 full_adder_8_bit_sv_unit
+S1
+R3
+w1632325012
+8C:/LELEC2531/Examen2020_2021/full_adder_8_bit.sv
+FC:/LELEC2531/Examen2020_2021/full_adder_8_bit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/LELEC2531/Examen2020_2021/full_adder_8_bit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/LELEC2531/Examen2020_2021/full_adder_8_bit.sv|
+!i113 1
+R6
+R7
+vsequential
+R0
+R1
+!i10b 1
+!s100 6LVCi6jR`:AY_V[aiG2aV0
+IAB`6UnlHh3zHRP^NL1cPi1
+R2
+!s105 sequential_sv_unit
+S1
+R3
+w1634237200
+8C:/LELEC2531/Examen2020_2021/sequential.sv
+FC:/LELEC2531/Examen2020_2021/sequential.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/LELEC2531/Examen2020_2021/sequential.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/LELEC2531/Examen2020_2021/sequential.sv|
+!i113 1
+R6
+R7
+vtaillight
+R0
+R1
+!i10b 1
+!s100 nOQFMV3hkiO[?eXT^Ne720
+Ink3Pi@D>P^d50F][<>[g43
+R2
+R8
+S1
+R3
+R9
+R10
+R11
+L0 30
+R4
+r1
+!s85 0
+31
+R5
+R12
+R13
+!i113 1
+R6
+R7
+vtest_comb
+R0
+R1
+!i10b 1
+!s100 _VSc8jT6O==jPPSW_S2d92
+InmfPOSHPF=QnAK2F]n>`R3
+R2
+Z14 !s105 test_comb_sv_unit
+S1
+R3
+w1634235778
+Z15 8C:/LELEC2531/Examen2020_2021/test_comb.sv
+Z16 FC:/LELEC2531/Examen2020_2021/test_comb.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+Z17 !s107 C:/LELEC2531/Examen2020_2021/test_comb.sv|
+Z18 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/LELEC2531/Examen2020_2021/test_comb.sv|
+!i113 1
+R6
+R7
+vtest_FSM
+R0
+R1
+!i10b 1
+!s100 h`?`ZzVoP1SlYVB=GBI^V1
+I?QV;hTj<EXZN=Xhz_Yj4R1
+R2
+!s105 test_fsm_sv_unit
+S1
+R3
+w1634237666
+8C:/LELEC2531/Examen2020_2021/test_fsm.sv
+FC:/LELEC2531/Examen2020_2021/test_fsm.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/LELEC2531/Examen2020_2021/test_fsm.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/LELEC2531/Examen2020_2021/test_fsm.sv|
+!i113 1
+R6
+R7
+ntest_@f@s@m
+vtest_Homework_1
+R0
+!s110 1634235159
+!i10b 1
+!s100 8nfl>Q>66fbnomXfY34Gg2
+I<`?_CR3CRh@h4nnPf97:i1
+R2
+R14
+S1
+R3
+w1634235138
+R15
+R16
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1634235159.000000
+R17
+R18
+!i113 1
+R6
+R7
+ntest_@homework_1

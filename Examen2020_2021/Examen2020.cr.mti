@@ -1,0 +1,58 @@
+C:/LELEC2531/Examen2020_2021/comb.sv {1 {vlog -work work -sv -stats=none C:/LELEC2531/Examen2020_2021/comb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Comb
+
+Top level modules:
+	Comb
+
+} {} {}} C:/LELEC2531/Examen2020_2021/test_fsm.sv {1 {vlog -work work -sv -stats=none C:/LELEC2531/Examen2020_2021/test_fsm.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module test_FSM
+
+Top level modules:
+	test_FSM
+
+} {} {}} C:/LELEC2531/Examen2020_2021/FSM.sv {1 {vlog -work work -sv -stats=none C:/LELEC2531/Examen2020_2021/FSM.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module FSM
+-- Compiling module taillight
+
+Top level modules:
+	FSM
+
+} {} {}} C:/LELEC2531/Examen2020_2021/full_adder_8_bit.sv {1 {vlog -work work -sv -stats=none C:/LELEC2531/Examen2020_2021/full_adder_8_bit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module full_adder_8_bit
+
+Top level modules:
+	full_adder_8_bit
+
+} {} {}} C:/LELEC2531/Examen2020_2021/full_adder_4_bit.sv {1 {vlog -work work -sv -stats=none C:/LELEC2531/Examen2020_2021/full_adder_4_bit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module full_adder_4_bit
+
+Top level modules:
+	full_adder_4_bit
+
+} {} {}} C:/LELEC2531/Examen2020_2021/sequential.sv {1 {vlog -work work -sv -stats=none C:/LELEC2531/Examen2020_2021/sequential.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sequential
+
+Top level modules:
+	sequential
+
+} {} {}} C:/LELEC2531/Examen2020_2021/full_adder_1_bit.sv {1 {vlog -work work -sv -stats=none C:/LELEC2531/Examen2020_2021/full_adder_1_bit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module full_adder_1_bit
+
+Top level modules:
+	full_adder_1_bit
+
+} {} {}} C:/LELEC2531/Examen2020_2021/test_comb.sv {1 {vlog -work work -sv -stats=none C:/LELEC2531/Examen2020_2021/test_comb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module test_comb
+
+Top level modules:
+	test_comb
+
+} {} {}}
